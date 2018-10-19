@@ -1,0 +1,135 @@
+header{
+    width: 960px;
+    border-bottom: 10px dotted #666;
+    height: 60px;
+    margin-bottom: 30px;
+    margin: auto;
+}
+header section{
+    float: left;
+    height:30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+}
+header img{
+    float: left;
+    margin-right: 5px;
+}
+header h1{
+    font-family: cursive;
+    font-size: 27px;
+}
+header p{
+    font-family: Helvetica;
+    font-size: 8px;
+    color: #444;
+}
+header div{
+    float: right;
+    height: 30px;
+    width: 149px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+header li{
+    display: inline-block;
+    margin-top: 8px;
+}
+header div img{
+    height: 15px;
+    margin-right: -1px;
+}
+#last-social-link{
+    margin-right: 6px;
+}
+main{
+    width: 960px;
+    margin: 20px auto;
+}
+
+#main-header {
+    margin-bottom: 20px;
+}
+main h1{
+    font-size: 35px;
+    font-style: bold;
+    margin-bottom: 4px;
+}
+main p{
+    font-size: 9px;
+    color: #666;
+}
+main {
+    font-family: helvetica;
+}
+#main-click-print{
+    float: right;
+    width: 41px;
+    color: #666;
+}
+#main-click-print img{
+    float: left;
+    margin-right: 1px;
+}
+#hero-img{
+    width: 960px;
+    margin-bottom: 16px;
+}
+.recipe-instructions{
+    margin-bottom: 20px;
+    color: #444;
+    font-size: 12px;
+    font-family: serif;
+    text-indent: 17px;
+}
+main section{
+    height: 326px;
+    padding-bottom: 30px;
+    border-bottom: 10px dotted #666;
+    margin-bottom: 20px;
+}
+main section img{
+    width: 960px;
+    position: absolute;
+    z-index: -1;
+}
+main ul{
+    list-style-type: square;
+    font-size: 22px;
+    font-family: cursive; 
+    height: 300px;
+    margin-top: 39px;
+    line-height: 33px;
+    color: rgba(97, 62, 21, 0.925);
+}
+main ul:first-of-type{
+    float: left;
+    width: 300px;
+    margin-left: 100px;
+}
+main ul:last-of-type{
+    float: right;
+    width: 420px;
+    margin-right: 60px;
+}
+main ul:last-of-type li:nth-child(2), main ul:last-of-type li:nth-child(3){
+    text-decoration-line: line-through;
+}
+#about-the-author{
+    height: 80px;
+    background: lightblue;
+}
+#about-the-author img{
+    float: left;
+}
+#about-the-author button{
+    float: right;
+}
+#about-the-author h2{
+    padding-top: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+
+}
+
