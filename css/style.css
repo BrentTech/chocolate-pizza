@@ -79,7 +79,7 @@ main {
 .recipe-instructions{
     margin-bottom: 20px;
     color: #444;
-    font-size: 12px;
+    font-size: 14px;
     font-family: serif;
     text-indent: 17px;
 }
@@ -95,7 +95,6 @@ main section img{
     z-index: -1;
 }
 main ul{
-    list-style-type: square;
     font-size: 22px;
     font-family: cursive; 
     height: 300px;
@@ -118,7 +117,6 @@ main ul:last-of-type li:nth-child(2), main ul:last-of-type li:nth-child(3){
 }
 #about-the-author{
     height: 80px;
-    background: lightblue;
 }
 #about-the-author img{
     float: left;
@@ -130,6 +128,9 @@ main ul:last-of-type li:nth-child(2), main ul:last-of-type li:nth-child(3){
     padding-top: 5px;
     width: 500px;
     margin-bottom: 10px;
+}
+#about-the-author p{
+    font-size: 14px;
 
 }
 
